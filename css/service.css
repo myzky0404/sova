@@ -1,0 +1,247 @@
+body{
+  font-family:
+ "游ゴシック体", "YuGothic", sans-serif;
+ line-height: 1.5em;
+}
+
+#wrapper{
+  margin-top: 5px;
+}
+
+.header{
+  display: flex;
+}
+
+.header1{
+  margin-left: 10px;
+}
+
+.header1 a img{
+  width: 50%;
+}
+
+.header2{
+  padding-top: 10px;
+  margin: 0 0 0 auto;
+}
+
+.header2 ul{
+  display: flex;
+
+}
+
+.header2 ul li{
+  margin-right: 30px;
+}
+
+.header2 a{
+  color: #707070;
+}
+
+.content1{
+  margin-top: 5px;
+  height: 250px;
+  background-image: url('../images/luca-bravo-XJXWbfSo2f0-unsplash.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  letter-spacing: 0.2em;
+}
+
+.content1 h2{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 40px;
+  color: white;
+}
+
+.content2{
+  margin: 70px 5%  0 5%;
+  letter-spacing: 0.1em;
+}
+
+.content2 h2{
+  color: #333333;
+  font-size: 18px;
+}
+
+.content2 p{
+  color: #707070;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+
+
+.content2-1{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  font-family: "p22-underground", sans-serif;
+}
+
+.content2-1-left{
+  width: 45%;
+  text-align:center;
+}
+
+.content2-1-right{
+  width: 55%;
+}
+
+.content2-2-left{
+  width: 45%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.content2-2-right{
+  width: 55%;
+  margin-left: 10%;
+}
+
+.content2-3-left{
+  width: 45%;
+  text-align:center;
+}
+
+.content2-3-right{
+  width: 55%;
+}
+
+
+.content2-2{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 90px;
+
+}
+
+.content2-3{
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+
+.content3 {
+  text-align:center;
+  margin-top: 70px;
+  letter-spacing: 0.1em;
+}
+
+
+.content3 a{
+  background-color: #59B946;
+  padding: 2%;
+  color: white;
+}
+
+
+
+
+.footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #59B946;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.footer1{
+  margin: 3% 2%;
+}
+
+.footer2{
+  margin: 10% 2%;
+}
+
+.footer2 h2{
+  margin-bottom:5px;
+}
+
+
+
+.footer3{
+  margin: 7% 2%;
+}
+
+.footer3 h2{
+  margin-bottom:15px;
+}
+
+
+.footer4{
+  margin: 7% 2%;
+}
+
+.footer4 h2{
+  margin-bottom:15px;
+}
+
+
+
+@media(max-width: 850px){
+  .footer{
+    display: block;
+    text-align: center;
+  }
+
+
+}
+
+
+
+@media(max-width: 650px){
+  .header{
+    display: block;
+  }
+
+  .header1{
+    text-align: center;
+  }
+
+  .header2 ul{
+    justify-content: center;
+  }
+
+  .content1 h2{
+    left: 25%;
+  }
+
+
+  .content2-1{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  .content2-2{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  .content2-2-left{
+    margin: 0 auto;
+  }
+
+  .content2-2-right{
+    margin: 0 auto;
+  }
+
+
+  .content2-3{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+
+}
+
+@media(max-width: 420px){
+ .header2{
+   font-size: 10px;
+ }
+}

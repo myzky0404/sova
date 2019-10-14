@@ -1,0 +1,241 @@
+body{
+  font-family:
+ "游ゴシック体", "YuGothic", sans-serif;
+ line-height: 1.5em;
+}
+
+#wrapper{
+  margin-top: 5px;
+}
+
+.header{
+  display: flex;
+}
+
+.header1{
+  margin-left: 10px;
+}
+
+.header1 a img{
+  width: 50%;
+}
+
+.header2{
+  padding-top: 10px;
+  margin: 0 0 0 auto;
+}
+
+.header2 ul{
+  display: flex;
+
+}
+
+.header2 ul li{
+  margin-right: 30px;
+}
+
+.header2 a{
+  color: #707070;
+}
+
+.content1{
+  margin-top: 5px;
+  height: 250px;
+  background-image: url('../images/helloquence-1.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.content1 h2{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+select{
+  width: 30%;
+  font-size: 20px;
+  padding-left: 30%;
+  border-bottom: 1px solid #59B946;
+  color: #707070;
+}
+
+
+.content2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content3{
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 0.1em;
+}
+
+
+.news{
+  display: flex;
+justify-content: center;
+padding: 2% 0%;
+}
+
+.news p{
+  padding: 1%;
+  border-bottom: 1px solid #C7C7C7;
+}
+
+.ca{
+  color: white;
+  background-color: #C7C7C7;
+}
+
+.color{
+  color:#707070;
+}
+
+.content4{
+  margin-top: 50px;
+}
+
+.content4 ul{
+  display: flex;
+  justify-content: center;
+}
+
+
+.co_1{
+  padding: 1% 2%;
+  margin-right: 1%;
+  color: white;
+  background-color:  #59B946;
+  border: 1px solid #59B946;
+}
+
+.other{
+  padding: 1% 2%;
+  margin-right: 1%;
+  color: white;
+  background-color: #C7C7C7;
+  border: 1px solid #C7C7C7;
+}
+
+.other2{
+  color: #C7C7C7;
+  padding: 1%;
+}
+
+.other3{
+  padding: 1% 1.5%;
+  color: white;
+  background-color: #C7C7C7;
+  border: 1px solid #C7C7C7;
+}
+
+
+
+
+.footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #59B946;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.footer1{
+  margin: 3% 2%;
+}
+
+.footer2{
+  margin: 10% 2%;
+}
+
+.footer2 h2{
+  margin-bottom:5px;
+}
+
+
+
+.footer3{
+  margin: 7% 2%;
+}
+
+.footer3 h2{
+  margin-bottom:15px;
+}
+
+
+.footer4{
+  margin: 7% 2%;
+}
+
+.footer4 h2{
+  margin-bottom:15px;
+}
+
+@media(max-width: 850px){
+  .footer{
+    display: block;
+    text-align: center;
+  }
+
+
+}
+
+
+
+@media(max-width: 650px){
+  .header{
+    display: block;
+  }
+
+  .header1{
+    text-align: center;
+  }
+
+  .header2 ul{
+    justify-content: center;
+  }
+
+  .content1 h2{
+    left: 25%;
+  }
+
+
+  .content2-1{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  .content2-2{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+
+  .content2-3{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+
+
+}
+
+@media(max-width: 550px){
+  .news{
+    display: block;
+  }
+}
+
+
+@media(max-width: 420px){
+ .header2{
+   font-size: 10px;
+ }
+}

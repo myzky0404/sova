@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+  <title>SoVa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://use.typekit.net/njb8hnq.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- <script src="contact.js"></script> -->
+
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="header">
+      <div class="header1">
+       <a href="#"><img src="images/Group 40.png"></a>
+      </div>
+
+      <div class="header2">
+        <ul>
+          <li><a href="#company">会社概要</a></li>
+          <li><a href="#news">ニュース</a></li>
+          <li><a href="#service">サービス</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        <ul>
+      </div>
+
+        </div> <!--header-->
+
+
+
+        <div id="content">
+
+          <div  class="content1">
+                <h2>お問い合わせ</h2>
+                <p>事業に関するお問い合わせや新聞・雑誌・メディアなどの取材はこちらより承っております<br>
+                  また、SoVaで働きたい・協業に興味ある方からのご連絡もお待ちしております。<br>
+                  以下のフォームに必要事項を誤入力の上、お気軽にご連絡下さい。
+
+                </p>
+          </div> <!--content1-->
+
+
+
+            <div  class="content2">
+              <form method="post" action="form.php">
+                <table>
+                  <tr>
+                    <th>お名前 <span>＊必須</span></th>
+                    <td><input name="name" type="text" class="name"></td>
+                  </tr>
+                  <tr>
+                    <th>ふりがな <span>＊必須</span></th>
+                    <td><input name="furigana" type="text" class="furigana"></td>
+                  </tr>
+                  <tr>
+                    <th>メールアドレス <span>＊必須</span></th>
+                    <td><input name="email" type="email" class="email"></td>
+                  </tr>
+                  <tr>
+                    <th>お問い合わせ項目  <span>＊必須</span></th>
+                    <td><input type="radio" name="optradio" class="radio">コンサルティングサービスの契約について<br>
+                    <input type="radio" name="optradio" class="radio">カライドの入居について<br>
+                    <input type="radio" name="optradio" class="radio">SoVaでのインターンについて<br>
+                    <input type="radio" name="optradio" class="radio">その他<br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>詳細（任意）</th>
+                    <td><textarea name="other"  cols="80" rows="8"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td class="button2" colspan="2">
+                      <input class="button" type="submit" value="送信">
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </div>
+
+    </div> <!--content -->
+
+
+
+        <div class="footer">
+          <div class="footer1">
+            <img src="images/Group 42.png">
+          </div>
+
+          <div class="footer2">
+            <h2>株式会社SoVa</h2>
+            <p>©︎SoVa 2019 ALL Right Reserved</p>
+            </div>
+
+          <div class="footer3">
+            <h2>会社情報</h2>
+            <p>会社概要</p>
+            <p>ニュース</p>
+            <p>サービス</p>
+          </div>
+
+          <div class="footer4">
+            <h2>サービス</h2>
+            <p>Virtual SoVa</p>
+            <p>バックオフィス・<br>
+              ファイナンスコンサルティング
+            </p>
+            <p>士業のコミュニティ<br>
+              「カライド」
+            </p>
+          </div>
+
+        </div> <!--footer-->
+
+    </div> <!--wapper-->
+
+  </body>
+</html>

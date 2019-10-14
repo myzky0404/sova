@@ -1,0 +1,415 @@
+body{
+  font-family:
+  "游ゴシック体", "YuGothic", sans-serif;
+  line-height: 1.5em;
+}
+
+#wrapper{
+  margin-top: 5px;
+}
+
+.header{
+  display: flex;
+}
+
+.header1{
+  margin-left: 10px;
+}
+
+.header1 a img{
+  width: 50%;
+}
+
+.header2{
+  padding-top: 10px;
+  margin: 0 0 0 auto;
+  letter-spacing: 0.1em;
+}
+
+.header2 ul{
+  display: flex;
+
+}
+
+.header2 ul li{
+  margin-right: 30px;
+}
+
+.header2 a{
+  color: #707070;
+}
+
+.content1{
+  margin-top: 5px;
+  height: 250px;
+  background-image: url('../images/charles-Lks7vei-eAg-unsplash.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.content1 h2{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+
+.content2{
+  text-align: center;
+  margin-top: 70px;
+  color:#59B946;
+}
+
+
+.content2 h2{
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  font-family: "p22-underground", sans-serif;
+}
+
+.content2 p{
+  font-size: 20px;
+  letter-spacing: 0.3em;
+}
+
+.content2-1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.content3{
+  text-align: center;
+  margin-top: 80px;
+  color:#59B946;
+}
+
+
+.content3 h2{
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  font-family: "p22-underground", sans-serif;
+}
+
+.content3 h3{
+  font-size: 20px;
+  margin-top: 30px;
+  letter-spacing: 0.1em;
+}
+
+
+.content3 p{
+  font-size: 14px;
+  margin-top: 20px;
+  letter-spacing: 0.1em;
+}
+
+.content4{
+  font-size: 30px;
+  text-align: center;
+  color:#59B946;
+  margin-top: 110px;
+  font-family: "p22-underground", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.content5{
+  text-align: center;
+}
+
+.content5 img{
+  width: 80%;
+  margin-top: 30px;
+}
+
+.content6{
+  /* display: flex; */
+  width: 100%;
+  margin-top: 80px;
+}
+
+.content6-1{
+  float: left;
+}
+
+.content6-2{
+  float: left;
+  font-size: 30px;
+  color:#59B946;
+  margin-left: 2%;
+  letter-spacing: 0.2em;
+  font-family: "p22-underground", sans-serif;
+}
+
+.content6-3{
+  float: left;
+  color:#59B946;
+  margin-left: 4%;
+  letter-spacing: 0.1em;
+}
+
+.content6-4{
+  float: left;
+  margin-left: 4%;
+  color: #707070;
+  letter-spacing: 0.1em;
+}
+
+
+.content7{
+  display: flex;
+  clear: both;
+  margin-top: 350px;
+}
+
+.content7-2{
+  margin-left: 2%;
+  font-size: 30px;
+  color:#59B946;
+  letter-spacing: 0.2em;
+  font-family: "p22-underground", sans-serif;
+}
+
+.content8{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.content8-1{
+  width: 50%;
+}
+
+
+.content8-1 img{
+  width: 70%;
+}
+
+.content8-2 h2{
+  color: #59B946;
+}
+
+
+.content8-2 h3{
+  margin-top: 5%;
+  color: #59B946;
+  font-size: 14px;
+}
+
+.content8-2 p{
+  margin-top: 5%;
+  color: #707070;
+}
+
+
+
+.content9{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.content9 h2{
+  color: #59B946;
+}
+
+.content9 h3{
+  color: #59B946;
+  font-size: 14px;
+}
+
+.content9 p{
+  color: #707070;
+  font-size: 12px;
+}
+
+
+
+.content9-1{
+  width: 20%;
+  margin: 20px;
+}
+
+.content9-2{
+  width: 20%;
+  margin: 20px;
+}
+
+.content9-3{
+  width: 20%;
+  margin: 20px;
+}
+.content9-4{
+  width: 20%;
+  margin: 20px;
+}
+
+.content9 img{
+  width: 100%;
+}
+
+
+.footer{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  background-color: #59B946;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.footer1{
+  margin: 3% 2%;
+}
+
+.footer2{
+  margin: 10% 2%;
+}
+
+.footer2 h2{
+  margin-bottom:5px;
+}
+
+
+
+.footer3{
+  margin: 7% 2%;
+}
+
+.footer3 h2{
+  margin-bottom:15px;
+}
+
+
+.footer4{
+  margin: 7% 2%;
+}
+
+.footer4 h2{
+  margin-bottom:15px;
+}
+
+@media(max-width: 850px){
+  .content6-3{
+    clear: both;
+    margin-top: 50px;
+    margin-left: 20%;
+  }
+
+  .content6-4{
+    margin-top: 50px;
+  }
+
+
+
+  .content8{
+    display: block;
+  }
+
+
+  .content8-1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .content8-2{
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+
+  .content9{
+    display: block;
+  }
+
+  .content9 img{
+    width: 50%;
+  }
+
+  .content9-1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .content9-2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .content9-3{
+    width: 100%;
+    text-align: center;
+  }
+
+  .content9-4{
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .footer{
+    display: block;
+    text-align: center;
+  }
+
+
+}
+
+
+
+@media(max-width: 650px){
+  .header{
+    display: block;
+  }
+
+  .header1{
+    text-align: center;
+  }
+
+  .header2 ul{
+    justify-content: center;
+  }
+
+  .content1 h2{
+    left: 25%;
+  }
+
+
+
+
+}
+
+@media(max-width: 550px){
+  .news{
+    display: block;
+  }
+
+
+  .content2-1{
+    display: block;
+  }
+
+
+
+  .content6-3{
+    margin-left: 4%;
+  }
+
+}
+
+
+@media(max-width: 420px){
+ .header2{
+   font-size: 10px;
+ }
+}

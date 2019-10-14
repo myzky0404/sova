@@ -1,0 +1,196 @@
+body{
+  font-family:
+ "游ゴシック体", "YuGothic", sans-serif;
+ line-height: 1.5em;
+}
+
+#wrapper{
+  margin-top: 5px;
+}
+
+.header{
+  display: flex;
+}
+
+.header1{
+  margin-left: 10px;
+}
+
+.header1 a img{
+  width: 50%;
+}
+
+.header2{
+  padding-top: 10px;
+  margin: 0 0 0 auto;
+}
+
+.header2 ul{
+  display: flex;
+}
+
+.header2 ul li{
+  margin-right: 30px;
+}
+
+.header2 a{
+  color: #707070;
+}
+
+.content1{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.content1 h2{
+  color: #59B946;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+
+.content1 p{
+  margin-top: 30px;
+  letter-spacing: 0.1em;
+  color: #707070;
+}
+
+.content2{
+  margin-top: 70px;
+  letter-spacing: 0.1em;
+  color: #707070;
+}
+
+
+
+
+
+.footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  background-color: #59B946;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+
+.footer1{
+  margin: 3% 2%;
+}
+
+.footer2{
+  margin: 10% 2%;
+}
+
+.footer2 h2{
+  margin-bottom:5px;
+}
+
+
+
+.footer3{
+  margin: 7% 2%;
+}
+
+.footer3 h2{
+  margin-bottom:15px;
+}
+
+
+.footer4{
+  margin: 7% 2%;
+}
+
+.footer4 h2{
+  margin-bottom:15px;
+}
+
+tr{
+ line-height: 50px;
+}
+
+th{
+ text-align: left;
+ padding-left: 15%;
+ vertical-align: top;
+}
+
+td{
+  width: 60%;
+}
+
+input{
+  width: 75%;
+  height: 25px;
+  border: 1px solid #707070;
+}
+
+.radio{
+  width: 5%;
+}
+
+textarea{
+  width: 75%;
+  margin-top: 2%;
+  border: 1px solid #707070;
+}
+
+.button{
+  width: 30%;
+  background-color: #59B946;
+  color: white;
+  padding: 2%;
+  margin-left: 10%;
+}
+
+.button2{
+  text-align: center;
+}
+
+span{
+  color: #AA0000;
+}
+
+
+
+
+@media(max-width: 850px){
+  .footer{
+    display: block;
+    text-align: center;
+  }
+
+
+}
+
+
+
+@media(max-width: 720px){
+  .header{
+    display: block;
+  }
+
+  .header1{
+    text-align: center;
+  }
+
+  .header2 ul{
+    justify-content: center;
+  }
+
+}
+
+  .content2 img{
+    width: 15%;
+
+}
+
+@media(max-width: 500px){
+ .header2{
+   font-size: 10px;
+ }
+}
